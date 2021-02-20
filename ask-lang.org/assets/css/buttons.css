@@ -1,0 +1,26 @@
+.btn {
+	padding: 15px 30px;
+	outline: none !important;
+	border: none !important;
+	border-radius: 0;
+	font-size: 1.2rem;
+	text-decoration: none;
+	display: block;
+}
+
+.btn:hover {
+	cursor: pointer;
+}
+
+.btn-primary {
+	background-color: var(--dark);
+	color: var(--white);
+}
+
+.btn-primary:hover {
+	opacity: .9;
+}
+
+.btn-large {
+	font-size: 1.6rem;
+}
