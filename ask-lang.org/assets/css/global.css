@@ -65,6 +65,12 @@ a {
 	text-decoration: none;
 }
 
+a:hover {
+	-webkit-transition: 100ms linear;
+    -moz-transition: 100ms linear;
+    transition: 100ms linear;
+}
+
 .vc {
 	display: flex;
 	align-items: center;

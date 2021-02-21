@@ -1,7 +1,7 @@
 .btn {
 	padding: 10px 50px;
 	outline: none !important;
-	border: none !important;
+	border: 5px solid transparent;
 	border-radius: 10px;
 	font-size: 1.2rem;
 	text-decoration: none;
@@ -19,7 +19,14 @@
 }
 
 .btn-primary:hover {
-	opacity: .9;
+	-webkit-transition: 100ms linear;
+    -moz-transition: 100ms linear;
+    transition: 100ms linear;
+	
+	border-color: var(--dark) !important;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: var(--dark);
 }
 
 .btn-large {
