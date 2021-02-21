@@ -3,12 +3,11 @@
 		<Header/>
 		<Intro/>
 		<Marketing/>
+		<GetStarted/>
+		<Example/>
   	</div>
 </template>
 
 <script>
 export default {}
 </script>
-
-<style>
-</style>

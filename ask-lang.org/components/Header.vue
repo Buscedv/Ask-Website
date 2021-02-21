@@ -1,7 +1,7 @@
 <template>
 	<header>
 		<div id='inner'>
-			<h1>Ask.</h1>
+			<h1>Ask<span>.</span></h1>
 			<p>Ask is a modern open source transpiled <strong>programming language</strong>, designed for building
 				<strong>backend services</strong> and <strong>APIs</strong>.</p>
 			<div class='row'>
@@ -45,6 +45,10 @@ header {
 #inner {
 	max-width: 70vw;
 	margin: 0 auto;
+}
+
+h1 span {
+	color: var(--palette-green-dark);
 }
 
 p {

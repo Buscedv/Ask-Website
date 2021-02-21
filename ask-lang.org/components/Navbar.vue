@@ -11,7 +11,7 @@
 						<a class='nav-link' href="https://docs.ask-lang.org" target="_blank">Docs</a>
 					</div>
 					<div class='col-xs-3 nav-item'>
-						<a class='nav-link' href="https://github.com/Buscedv/Ask" target="_blank">The Project</a>
+						<a class='nav-link' href="https://github.com/Buscedv/Ask" target="_blank">Project</a>
 					</div>
 					<div class='col-xs-3 nav-item'>
 						<a class='nav-link' href="#">Articles</a>
@@ -96,6 +96,10 @@ h1 {
 		max-width: fit-content;
 		padding-bottom: 5px;
 		margin: 0 auto;
+	}
+	
+	#logo h1 {
+		display: none;
 	}
 	
 	.nav-items {

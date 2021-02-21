@@ -120,7 +120,7 @@ p {
 
 .list-area {
 	width: fit-content;
-	padding: 5px 30px;
+	padding: 5px 20px;
 	border-radius: 10px;
 	height: 100%;
 	margin: 0 auto;
@@ -148,11 +148,13 @@ p {
 	font-size: 1.1rem;
 	opacity: .8;
 	color: var(--dark);
+	text-align: right;
 }
 
 .right .list p {
 	color: var(--palette-pink-white);
 	opacity: 1;
+	text-align: left;
 }
 
 @media screen and (max-width: 870px) {

@@ -1,12 +1,12 @@
 .btn {
 	padding: 10px 50px;
 	outline: none !important;
-	border: 5px solid transparent;
-	border-radius: 10px;
+	border: 8px solid transparent;
+	border-radius: 50px;
 	font-size: 1.2rem;
 	text-decoration: none;
 	display: block;
-	box-shadow: 0 5px 5px #ddd;
+	box-shadow: 5px 5px 5px #ddd;
 }
 
 .btn:hover {
@@ -19,14 +19,13 @@
 }
 
 .btn-primary:hover {
-	-webkit-transition: 100ms linear;
-    -moz-transition: 100ms linear;
-    transition: 100ms linear;
+	-webkit-transition: 300ms linear;
+    -moz-transition: 300ms linear;
+    transition: 300ms linear;
 	
-	border-color: var(--dark) !important;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	background-color: var(--palette-pink-white);
 	color: var(--dark);
+	border-color: var(--dark);
 }
 
 .btn-large {

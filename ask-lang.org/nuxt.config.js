@@ -38,7 +38,6 @@ export default {
 
 	// Modules: https://go.nuxtjs.dev/config-modules
 	modules: [
-		// https://go.nuxtjs.dev/pwa
 		'@nuxtjs/pwa',
 		'nuxt-fontawesome',
 		'nuxt-webfontloader',
@@ -50,7 +49,7 @@ export default {
 			lang: 'en',
 		},
 	},
-	
+
 	fontawesome: {
 		imports: [
 			{
@@ -63,13 +62,17 @@ export default {
 			},
 		],
 	},
-	
+
 	webfontloader: {
 		custom: {
-			families: 'Open Sans',
+			families: 'Roboto Slab',
 		}
 	},
 
 	// Build Configuration: https://go.nuxtjs.dev/config-build
 	build: {},
+
+	server: {
+		host: "0.0.0.0"
+	}
 }
