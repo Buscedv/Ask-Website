@@ -1,8 +1,18 @@
 :root {
-	--white: #fff;
-	--black: #202225;
-	--bg: rgb(249, 250, 251);
+	--white: #f7f7f7;
+	--white-on-white: #fbfbfb;
 	--light-gray: #d2d6dc;
-	--dark: #01252c;
-	--accent: #0f3a36;
+	
+	--black: #152128;
+	--dark: #02252c;
+	
+	--bg: rgb(249, 250, 251);
+
+	/* Palette */
+	--palette-pink-light: #f0d6cd;
+	--palette-pink-light-light: #f5ece8;
+	--palette-pink-white: #f2f1ee;
+	
+	--palette-green-dark: #597b6e;
+	--palette-green-light: #657776;
 }

@@ -1,11 +1,8 @@
 <template>
 	<nav class='row'>
-		<div class='col-xs-12 row' id='inner'>
-			<div class='col-sm-6 col-xs-12'>
-				<div class='row vc'>
-					<img alt='Ask Programming Language' src='../static/icon.png'>
-					<h1 id='title'>Ask</h1>
-				</div>
+		<div id='inner' class='col-xs-12 row'>
+			<div id="logo" class='col-sm-6 col-xs-12 vc'>
+				<img alt='Ask Programming Language' src='../static/banner.png'>
 			</div>
 			<div class='col-sm-6 col-xs-12 vc'>
 				<div class='row nav-items vc'>
@@ -19,7 +16,7 @@
 						<a class='nav-link'>Articles</a>
 					</div>
 					<div class='col-xs-3 nav-item'>
-						<a class='nav-link'>Contribute</a>
+						<a class='nav-link'><font-awesome-icon :icon="['fab', 'github']"/> Contribute</a>
 					</div>
 				</div>
 			</div>
@@ -42,6 +39,7 @@ nav {
 	left: 0;
 	margin: 0;
 	text-align: center;
+	background-color: var(--dark);
 }
 
 #inner {
@@ -54,14 +52,15 @@ img {
 }
 
 #title {
+	color: var(--light-gray);
 	display: block;
-    font-size: 1.5em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0;
-    margin-inline-end: 0;
-	
-	padding-left: 10px;
+	font-size: 1.5em;
+	margin-block-start: 0.67em;
+	margin-block-end: 0.67em;
+	margin-inline-start: 0;
+	margin-inline-end: 0;
+
+	padding-left: 15px;
 	font-weight: normal;
 }
 
@@ -74,8 +73,18 @@ img {
 	text-align: center;
 }
 
+.nav-link {
+	color: var(--white);
+}
+
 .nav-link:hover {
 	cursor: pointer;
-	color: var(--link-hover);
+	opacity: .7;
+}
+
+@media screen and (max-width: 870px) {
+	#logo {
+		text-align: center;
+	}
 }
 </style>

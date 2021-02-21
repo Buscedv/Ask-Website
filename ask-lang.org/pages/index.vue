@@ -2,6 +2,8 @@
 	<div id='app'>
 		<Navbar/>
 		<Header/>
+		<Intro/>
+		<Marketing/>
   	</div>
 </template>
 

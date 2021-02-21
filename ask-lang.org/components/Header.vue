@@ -1,6 +1,7 @@
 <template>
 	<header>
 		<div id='inner'>
+			<h1>The Ask Programming Language.</h1>
 			<p>Ask is a modern open source transpiled <strong>programming language</strong>, designed for building
 				<strong>backend services</strong> and <strong>APIs</strong>.</p>
 			<div class='row'>
@@ -14,7 +15,14 @@
 					</ul>
 				</div>
 				<div class='col-sm-6 col-xs-12 vc'>
-					<button class='btn btn-primary btn-large'>Get Started</button>
+					<div class="row" id="download-area">
+						<div class="col-xs-12">
+							<button class='btn btn-primary btn-large'><font-awesome-icon icon="leaf"/> Install Ask</button>
+						</div>
+						<div class="col-xs-12">
+							<p>v1.0.0</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -29,13 +37,13 @@ export default {
 
 <style scoped>
 header {
-	padding: 105px 50px 60px 50px;
-	background-color: var(--bg);
-	box-shadow: 0 1px 1px var(--light-gray);
+	padding: 105px 0;
+	background-color: var(--white-on-white);
+	box-shadow: 0 2px 2px var(--light-gray);
 }
 
 #inner {
-	max-width: 80vw;
+	max-width: 70vw;
 	margin: 0 auto;
 }
 
@@ -47,28 +55,29 @@ p strong {
 	font-weight: 600;
 }
 
-ul {
-	padding-top: 10px;
-	padding-bottom: 10px;
-	margin: 0;
-	list-style-type: none;
-}
-
-ul > li {
-	text-indent: -5px;
-}
-
-ul > li:before {
-	content: "- ";
-	text-indent: -5px;
-}
-
-li {
-	font-size: 20px;
-	opacity: .7;
-}
-
 .btn {
 	margin: 0 auto;
+}
+
+#download-area {
+	width: 100%;
+	text-align: center;
+}
+
+#download-area p {
+	font-size: 1rem;
+	padding-top: 2px;
+	margin: 0;
+	opacity: .5;
+}
+
+@media screen and (max-width: 870px) {
+	header {
+		padding-top: 150px;
+	}
+	
+	#inner {
+		max-width: 80vw;
+	}
 }
 </style>

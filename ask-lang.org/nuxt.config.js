@@ -15,12 +15,13 @@ export default {
 			},
 			{name: 'author', content: 'Edvard Busck-Nielsen'}
 		],
-		link: [{rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}],
+		link: [{rel: 'icon', type: 'image/x-icon', href: '/icon.png'}],
 	},
 
 	// Global CSS: https://go.nuxtjs.dev/config-css
 	css: [
 		'@/assets/css/flexboxgrid/flexboxgrid.min.css',
+		'@fortawesome/fontawesome-svg-core/styles.css',
 		'@/assets/css/global.css',
 		'@/assets/css/buttons.css',
 		'@/assets/css/colors.css',
@@ -39,6 +40,8 @@ export default {
 	modules: [
 		// https://go.nuxtjs.dev/pwa
 		'@nuxtjs/pwa',
+		'nuxt-fontawesome',
+		'nuxt-webfontloader',
 	],
 
 	// PWA module configuration: https://go.nuxtjs.dev/pwa
@@ -46,6 +49,25 @@ export default {
 		manifest: {
 			lang: 'en',
 		},
+	},
+	
+	fontawesome: {
+		imports: [
+			{
+				set: '@fortawesome/free-solid-svg-icons',
+				icons: ['fas']
+			},
+			{
+				set: '@fortawesome/free-brands-svg-icons',
+				icons: ['fab']
+			},
+		],
+	},
+	
+	webfontloader: {
+		custom: {
+			families: 'Open Sans',
+		}
 	},
 
 	// Build Configuration: https://go.nuxtjs.dev/config-build
