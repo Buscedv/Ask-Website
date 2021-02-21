@@ -12,7 +12,7 @@
 				<p>We want you to be able to fully focus on your app and not waste time on technicalities.</p>
 			</div>
 			<div class="col-sm-4 col-xs-12">
-				<h1><font-awesome-icon icon="puzzle-piece"/></h1>
+				<h1><font-awesome-icon icon="plug"/></h1>
 				<h3>Extendable & Customizable</h3>
 				<p>Simple doesn't mean basic. You can actually import any Python module or packages into you app. This means that Ask can in practice do anything Python can.</p>
 			</div>
@@ -28,12 +28,12 @@ export default {
 
 <style scoped>
 #intro {
-	min-height: 50vh;
+	min-height: 55vh;
 }
 
 #inner {
-	max-width: 80vw;
 	padding: 50px 0;
+	max-width: 80vw;
 	margin: 0 auto;
 }
 
@@ -43,6 +43,8 @@ export default {
 
 h1 {
 	color: var(--dark);
+	margin: 0;
+	padding-bottom: 15px;
 }
 
 h3, p {

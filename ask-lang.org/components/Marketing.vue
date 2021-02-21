@@ -2,9 +2,9 @@
 	<div id="info">
 		<section class="left vc">
 			<div>
-				<h2>Development</h2>
 				<div class="row">
 					<div class="col-sm-8 col-xs-12">
+						<h1>Development.</h1>
 						<p>
 							Ask's syntax is heavily based on and inspired by Python, and can almost be considered to be a
 							superset of Python. This means that picking up Ask is super easy if you’re already familiar with
@@ -19,10 +19,10 @@
 	
 					<div class="col-sm-4 col-xs-12 list-area vc">
 						<div class="list">
-							<p>Lorem ipsum</p>
-							<p>Test</p>
-							<p>Dolor sit amet</p>
-							<p>Test</p>
+							<p>- Syntax Inspired by Python.</p>
+							<p>- Easy to Learn.</p>
+							<p>- Elegant & Clean.</p>
+							<p>- Reduces Boilerplate.</p>
 						</div>
 					</div>
 				</div>
@@ -31,16 +31,16 @@
 
 		<section class="right vc">
 			<div>
-				<h2>Deployment</h2>
 				<div class="row">
 					<div class="col-sm-4 col-xs-12 list-area vc">
 						<div class="list">
-							<p>Lorem ipsum</p>
-							<p>Test</p>
-							<p>Dolor sit amet</p>
+							<p>- Transpiles to Flask.</p>
+							<p>- Standalone.</p>
+							<p>- No Commitment.</p>
 						</div>
 					</div>
 					<div class="col-sm-8 col-xs-12">
+						<h1>Deployment.</h1>
 						<p>
 							Ask is a transpiled language (kind of like TypeScript) which means that it compiles the source
 							code to
@@ -81,7 +81,8 @@ section {
 	color: var(--light-gray);
 }
 
-h2 {
+h1 {
+	margin: 0;
 	color: var(--palette-pink-white);
 }
 
@@ -98,8 +99,8 @@ p {
 	background-color: var(--palette-pink-white);
 }
 
-.right h2 {
-	color: var(--palette-green-dark);
+.right h1 {
+	color: var(--dark);
 }
 
 .right p {
@@ -113,6 +114,8 @@ p {
 
 .list p {
 	width: fit-content;
+	font-size: 1.5rem;
+	font-style: italic;
 }
 
 .left .list {
@@ -121,5 +124,11 @@ p {
 
 .right .list {
 	text-align: left;
+}
+
+@media screen and (max-width: 870px) {
+	.list {
+		display: none;
+	}
 }
 </style>

@@ -26,6 +26,13 @@ body {
 	font-weight: 800;
 }
 
+/* Kameron */
+@font-face {
+	font-family: 'Roboto Slab';
+	src: url("../fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf") format("truetype");
+	font-weight: 900;
+}
+
 
 * {
 	font-family: 'Open Sans', sans-serif !important;
@@ -33,6 +40,24 @@ body {
 
 h1, h2, h3, h4, h5, h6, p, a, li {
 	color: var(--black);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: var(--dark);
+}
+
+h1 {
+	font-weight: 900;
+	font-family: 'Roboto Slab', 'Open Sans', sans-serif !important;
+	font-size: 3rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+a {
+	text-decoration: none;
 }
 
 .vc {

@@ -1,7 +1,7 @@
 <template>
 	<header>
 		<div id='inner'>
-			<h1>The Ask Programming Language.</h1>
+			<h1>Ask.</h1>
 			<p>Ask is a modern open source transpiled <strong>programming language</strong>, designed for building
 				<strong>backend services</strong> and <strong>APIs</strong>.</p>
 			<div class='row'>
@@ -17,7 +17,7 @@
 				<div class='col-sm-6 col-xs-12 vc'>
 					<div class="row" id="download-area">
 						<div class="col-xs-12">
-							<button class='btn btn-primary btn-large'><font-awesome-icon icon="leaf"/> Install Ask</button>
+							<a class='btn btn-primary btn-large' href="https://github.com/Buscedv/Ask" target="_blank"><font-awesome-icon icon="leaf"/> Install Ask</a>
 						</div>
 						<div class="col-xs-12">
 							<p>v1.0.0</p>
@@ -38,7 +38,7 @@ export default {
 <style scoped>
 header {
 	padding: 105px 0;
-	background-color: var(--white-on-white);
+	background-color: var(--bg);
 	box-shadow: 0 2px 2px var(--light-gray);
 }
 
@@ -53,6 +53,7 @@ p {
 
 p strong {
 	font-weight: 600;
+	color: var(--dark);
 }
 
 .btn {

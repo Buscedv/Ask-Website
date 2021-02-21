@@ -2,21 +2,22 @@
 	<nav class='row'>
 		<div id='inner' class='col-xs-12 row'>
 			<div id="logo" class='col-sm-6 col-xs-12 vc'>
-				<img alt='Ask Programming Language' src='../static/banner.png'>
+				<a href="/"><img alt='Ask Programming Language' src='../static/icon-transparent.png'></a>
+				<h1>Ask</h1>
 			</div>
 			<div class='col-sm-6 col-xs-12 vc'>
 				<div class='row nav-items vc'>
 					<div class='col-xs-3 nav-item'>
-						<a class='nav-link'>Docs</a>
+						<a class='nav-link' href="https://docs.ask-lang.org" target="_blank">Docs</a>
 					</div>
 					<div class='col-xs-3 nav-item'>
-						<a class='nav-link'>The Project</a>
+						<a class='nav-link' href="https://github.com/Buscedv/Ask" target="_blank">The Project</a>
 					</div>
 					<div class='col-xs-3 nav-item'>
-						<a class='nav-link'>Articles</a>
+						<a class='nav-link' href="#">Articles</a>
 					</div>
 					<div class='col-xs-3 nav-item'>
-						<a class='nav-link'><font-awesome-icon :icon="['fab', 'github']"/> Contribute</a>
+						<a class='nav-link' href="https://github.com/Buscedv/Ask" target="_blank">Contribute</a>
 					</div>
 				</div>
 			</div>
@@ -39,7 +40,7 @@ nav {
 	left: 0;
 	margin: 0;
 	text-align: center;
-	background-color: var(--dark);
+	background-color: var(--black);
 }
 
 #inner {
@@ -47,12 +48,16 @@ nav {
 	margin: 0 auto;
 }
 
-img {
+#logo img {
 	max-height: 50px;
 }
 
-#title {
-	color: var(--light-gray);
+#logo a:hover {
+	cursor: pointer;
+}
+
+h1 {
+	color: var(--white);
 	display: block;
 	font-size: 1.5em;
 	margin-block-start: 0.67em;
@@ -83,8 +88,18 @@ img {
 }
 
 @media screen and (max-width: 870px) {
+	nav {
+		position: absolute;
+	}
+	
 	#logo {
-		text-align: center;
+		max-width: fit-content;
+		padding-bottom: 5px;
+		margin: 0 auto;
+	}
+	
+	.nav-items {
+		padding-bottom: 5px;
 	}
 }
 </style>
