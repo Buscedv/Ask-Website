@@ -47,7 +47,7 @@
 						status('Wrong password', 401)
 					
 					# Generates API toke that's valid for one hour.
-					respond({ token: auth.login(body['email'], 3600 })
+					respond({ token: auth.login(body['email'], 3600) })
 				
 				
 				@post('/signup'):
