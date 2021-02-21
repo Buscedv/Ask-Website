@@ -8,13 +8,13 @@
 			</div>
 			<div class="col-sm-4 col-xs-12 card">
 				<h1><font-awesome-icon icon="project-diagram"/></h1>
-				<h3>Less Code == Less Things to Worry About</h3>
-				<p>We want you to be able to fully focus on your app and not waste time on technicalities.</p>
+				<h3>Don't Waste Time</h3>
+				<p>Less code means less things to worry about. It's easier to find bugs in smaller code bases, and managing less code also makes it easier to add new features.</p>
 			</div>
 			<div class="col-sm-4 col-xs-12 card">
 				<h1><font-awesome-icon icon="plug"/></h1>
 				<h3>Extendable & Customizable</h3>
-				<p>Simple doesn't mean basic. You can actually import any Python module or packages into you app. This means that Ask can in practice do anything Python can.</p>
+				<p>Simple doesn't mean basic. You can actually import external modules written in Python to Ask. This means that Ask can in practice do anything Python can.</p>
 			</div>
 		</div>
 	</div>
@@ -33,7 +33,7 @@ export default {
 
 #inner {
 	padding: 50px 0;
-	max-width: 80vw;
+	max-width: 85vw;
 	margin: 0 auto;
 }
 

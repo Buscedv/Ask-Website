@@ -38,7 +38,7 @@ export default {
 <style scoped>
 header {
 	padding: 105px 0;
-	background-color: var(--bg);
+	background-color: var(--palette-pink-white);
 	box-shadow: 0 2px 2px var(--light-gray);
 }
 
@@ -71,9 +71,9 @@ p strong {
 
 #download-area p {
 	font-size: 1rem;
-	padding-top: 2px;
+	padding-top: 3px;
 	margin: 0;
-	opacity: .5;
+	opacity: .6;
 }
 
 @media screen and (max-width: 870px) {

@@ -1,10 +1,10 @@
 <template>
 	<nav class='row'>
 		<div id='inner' class='col-xs-12 row'>
-			<div id="logo" class='col-sm-6 col-xs-12 vc'>
-				<a href="/"><img alt='Ask Programming Language' src='../static/icon-transparent.png'></a>
+			<a href="/" id="logo" class='col-sm-6 col-xs-12 vc'>
+				<img alt='Ask Programming Language' src='../static/icon-transparent.png'>
 				<h1>Ask</h1>
-			</div>
+			</a>
 			<div class='col-sm-6 col-xs-12 vc'>
 				<div class='row nav-items vc'>
 					<div class='col-xs-3 nav-item'>
@@ -52,12 +52,12 @@ nav {
 	max-height: 50px;
 }
 
-#logo a:hover {
+#logo:hover {
 	cursor: pointer;
 }
 
 h1 {
-	color: var(--white);
+	color: var(--white-on-white);
 	display: block;
 	font-size: 1.5em;
 	margin-block-start: 0.67em;
@@ -65,7 +65,7 @@ h1 {
 	margin-inline-start: 0;
 	margin-inline-end: 0;
 
-	padding-left: 15px;
+	padding: 0 15px;
 	font-weight: normal;
 }
 
@@ -79,7 +79,7 @@ h1 {
 }
 
 .nav-link {
-	color: var(--white);
+	color: var(--palette-pink-light-light);
 }
 
 .nav-link:hover {
@@ -94,12 +94,8 @@ h1 {
 	
 	#logo {
 		max-width: fit-content;
-		padding-bottom: 5px;
 		margin: 0 auto;
-	}
-	
-	#logo h1 {
-		display: none;
+		padding-bottom: 5px;
 	}
 	
 	.nav-items {

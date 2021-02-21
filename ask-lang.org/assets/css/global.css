@@ -102,6 +102,9 @@ li {
 	opacity: .7;
 }
 
+body::-webkit-scrollbar {
+}
+
 /** {*/
 /*	outline: 1px solid blue;*/
 /*}*/

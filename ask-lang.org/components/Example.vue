@@ -112,6 +112,10 @@ p {
 	margin-bottom: 10px;
 }
 
+.expander:hover {
+	background-color: var(--palette-pink-white);
+}
+
 pre {
 	padding-left: 5px;
 }

@@ -24,7 +24,7 @@ export default {
 
 <style scoped>
 #contact {
-	padding: 80px 0;
+	padding: 80px 50px;
 	text-align: center;
 	max-width: 70vw;
 	margin: 0 auto;
