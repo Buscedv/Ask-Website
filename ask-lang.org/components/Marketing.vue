@@ -97,7 +97,7 @@ p {
 
 .left {
 	text-align: left;
-	background-color: var(--palette-green-light);
+	background-color: var(--palette-green-dark);
 }
 
 .right {
@@ -120,11 +120,11 @@ p {
 	height: 100%;
 	margin: 0 auto;
 	background-color: var(--palette-pink-white);
-	box-shadow: 0 5px 5px var(--palette-green-dark);
+	box-shadow: 0 5px 5px var(--palette-green-light);
 }
 
 .right .list-area {
-	background-color: var(--palette-green-light);
+	background-color: var(--palette-green-dark);
 	box-shadow: 0 5px 5px #ddd;
 }
 

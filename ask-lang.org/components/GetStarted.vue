@@ -34,7 +34,7 @@ export default {
 }
 
 #get-started {
-	padding: 50px 50px;
+	padding: 60px 50px;
 	text-align: center;
 	margin: 0 auto;
 	max-width: 70vw;
@@ -59,7 +59,7 @@ h2 {
 }
 
 #square {
-	background-color: var(--palette-pink-light-light);
+	background-color: var(--palette-pink-light);
 	right: 0;
 	transform: rotate(-40deg);
 }
