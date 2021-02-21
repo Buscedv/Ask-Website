@@ -15,8 +15,8 @@
 							<br>
 							The main idea behind Ask is to simplify common backend actions (e.g. working with
 							databases).
-							Building a full database CRUD REST API with JWT authentication is very straight forward and
-							simple and requires virtually zero lines of boilerplate code and no setup when using Ask.
+							Building a full database CRUD REST API with JWT authentication in Ask is very straight forward and
+							simple and requires virtually zero lines of boilerplate code and no setup whatsoever.
 						</p>
 					</div>
 
@@ -43,7 +43,6 @@
 								<p>- Transpiles to Python.</p>
 								<p>- Easy & Straight Forward to Deploy.</p>
 								<p>- Generates a Standalone Flask App.</p>
-								<p>- No Commitment.</p>
 							</div>
 						</div>
 					</div>
@@ -64,11 +63,7 @@
 							tools, and services for deploying Flask apps.
 						</p>
 						<p>
-							The transpiled app is completely standalone and doesn't require Ask in any way. The output
-							code
-							is also
-							readable and well organized. So it's possible to switch to Flask by continuing developing on
-							the transpiled code. No commitment.
+							The transpiled app is completely standalone and doesn't require Ask in any way.
 						</p>
 					</div>
 				</div>
@@ -102,7 +97,7 @@ p {
 
 .left {
 	text-align: left;
-	background-color: var(--palette-green-dark);
+	background-color: var(--palette-green-light);
 }
 
 .right {
@@ -125,11 +120,11 @@ p {
 	height: 100%;
 	margin: 0 auto;
 	background-color: var(--palette-pink-white);
-	box-shadow: 0 5px 5px var(--palette-green-light);
+	box-shadow: 0 5px 5px var(--palette-green-dark);
 }
 
 .right .list-area {
-	background-color: var(--palette-green-dark);
+	background-color: var(--palette-green-light);
 	box-shadow: 0 5px 5px #ddd;
 }
 

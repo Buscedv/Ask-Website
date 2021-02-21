@@ -7,13 +7,13 @@
 			<h2>Get Started</h2>
 			<div class="row">
 				<div class="col-sm-4 col-xs-12">
-					<a class="btn btn-primary" href="https://docs.ask-lang.org" target="_blank"><font-awesome-icon icon="newspaper"/> Articles</a>
+					<a class="btn btn-primary" href="#"><font-awesome-icon icon="newspaper"/> Articles</a>
 				</div>
 				<div class="col-sm-4 col-xs-12">
 					<a class="btn btn-primary" href="https://docs.ask-lang.org" target="_blank"><font-awesome-icon icon="book"/> Docs</a>
 				</div>
 				<div class="col-sm-4 col-xs-12">
-					<a class="btn btn-primary" href="https://docs.ask-lang.org" target="_blank"><font-awesome-icon icon="code-branch"/> Contribute</a>
+					<a class="btn btn-primary" href="https://github.com/Buscedv/Ask" target="_blank"><font-awesome-icon icon="code-branch"/> Contribute</a>
 				</div>
 			</div>
 		</div>
@@ -59,7 +59,7 @@ h2 {
 }
 
 #square {
-	background-color: var(--palette-pink-light);
+	background-color: var(--palette-pink-light-light);
 	right: 0;
 	transform: rotate(-40deg);
 }

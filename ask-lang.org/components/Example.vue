@@ -5,7 +5,7 @@
 		
 		<div class="btn expander" @click="expand = !expand">
 			<font-awesome-icon :icon="['fas', (expand) ? 'chevron-up' : 'chevron-down']"/>
-			<span v-text="(expand) ? ' Hide' : ' Expand'"></span>
+			<span v-text="(expand) ? ' Hide' : ' Expand Me'"></span>
 		</div>
 		
 		<pre class="language-javascript" v-show="expand">
