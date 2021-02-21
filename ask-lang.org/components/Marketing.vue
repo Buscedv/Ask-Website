@@ -17,12 +17,14 @@
 						</p>
 					</div>
 	
-					<div class="col-sm-4 col-xs-12 list-area vc">
-						<div class="list">
-							<p>- Syntax Inspired by Python.</p>
-							<p>- Easy to Learn.</p>
-							<p>- Elegant & Clean.</p>
-							<p>- Reduces Boilerplate.</p>
+					<div class="col-sm-4 col-xs-12 vc">
+						<div class="list-area vc">
+							<div class="list">
+								<p>- Syntax Inspired by Python.</p>
+								<p>- Easy to Learn.</p>
+								<p>- Elegant & Clean.</p>
+								<p>- Reduces Boilerplate.</p>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -32,11 +34,14 @@
 		<section class="right vc">
 			<div>
 				<div class="row">
-					<div class="col-sm-4 col-xs-12 list-area vc">
-						<div class="list">
-							<p>- Transpiles to Flask.</p>
-							<p>- Standalone.</p>
-							<p>- No Commitment.</p>
+					<div class="col-sm-4 col-xs-12 vc">
+						<div class="list-area vc">
+							<div class="list">
+								<p>- Transpiles to Flask.</p>
+								<p>- Standalone.</p>
+								<p>- Easy to Deploy.</p>
+								<p>- No Commitment.</p>
+							</div>
 						</div>
 					</div>
 					<div class="col-sm-8 col-xs-12">
@@ -55,11 +60,7 @@
 							<br>
 							The transpiled app is completely standalone and doesn't require Ask in any way. The output code
 							is also
-							readable and well organized, so switching to Ask from Flask is basically zero commitment since
-							you can
-							always go back to Flask by just continuing work on the transpiled code and pretending that Ask
-							never was
-							involved.
+							readable and well organized.
 						</p>
 					</div>
 				</div>
@@ -107,6 +108,14 @@ p {
 	color: var(--dark);
 }
 
+.list-area {
+	width: fit-content;
+	padding: 20px;
+	border-radius: 10px;
+	height: 100%;
+	margin: 0 auto;
+}
+
 .list {
 	margin: 0 auto;
 	width: fit-content;
@@ -114,8 +123,9 @@ p {
 
 .list p {
 	width: fit-content;
-	font-size: 1.5rem;
-	font-style: italic;
+	font-size: 1.3rem;
+	opacity: .9;
+	color: var(--dark);
 }
 
 .left .list {
@@ -126,8 +136,21 @@ p {
 	text-align: left;
 }
 
+.right .list p {
+	color: var(--light-gray);
+}
+
+.left .list-area {
+	background-color: var(--palette-pink-white);
+}
+
+.right .list-area {
+	background-color: var(--palette-green-dark);
+}
+
+
 @media screen and (max-width: 870px) {
-	.list {
+	.list-area {
 		display: none;
 	}
 }

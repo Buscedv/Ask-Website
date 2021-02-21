@@ -1,8 +1,9 @@
 <template>
 	<footer>
-		<div class="row" id="inner">
+		<div id="inner" class="row">
 			<div class="col-xs-12">
-				<p id="copyright" :v-text="'&copy; Edvard Busck-Nielsen ' + year"></p>
+				<p class="copyright">Ask is released under the GNU GPL v3.0</p>
+				<p class="copyright" v-html="'&copy; Edvard Busck-Nielsen ' + year"></p>
 			</div>
 		</div>
 	</footer>
@@ -13,13 +14,13 @@ export default {
 	name: 'Footer',
 	data() {
 		return {
-			year: '',
+			year: ''
 		}
 	},
 	mounted() {
-		const d = new Date()
-		this.year = d.getFullYear()
-	}
+		const date = new Date();
+		this.year = date.getFullYear();
+	},
 }
 </script>
 
@@ -32,7 +33,7 @@ footer {
 	text-align: center;
 }
 
-#copyright {
+.copyright {
 	opacity: .6;
 }
 </style>
