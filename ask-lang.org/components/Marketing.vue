@@ -91,13 +91,13 @@ h1 {
 }
 
 p {
-	color: var(--light-gray);
+	color: var(--white);
 	text-align: justify;
 }
 
 .left {
 	text-align: left;
-	background-color: var(--palette-green-dark);
+	background-color: var(--palette-green-light);
 }
 
 .right {
@@ -124,7 +124,7 @@ p {
 }
 
 .right .list-area {
-	background-color: var(--palette-green-dark);
+	background-color: var(--dark);
 	box-shadow: 0 5px 5px #ddd;
 }
 
