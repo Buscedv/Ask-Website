@@ -54,7 +54,7 @@ export default {
 
 <style scoped>
 #banner {
-	width: 99.99%;
+	width: 100vw;
 	height: fit-content;
 	position: fixed;
 	bottom: 0;
