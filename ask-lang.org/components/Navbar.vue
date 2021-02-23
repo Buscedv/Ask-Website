@@ -7,18 +7,13 @@
 			</a>
 			<div class='col-sm-6 col-xs-12 vc'>
 				<div class='row nav-items vc'>
-					<div class='col-xs-3 nav-item'>
-						<a class='nav-link' href="https://docs.ask-lang.org" target="_blank">Docs</a>
-					</div>
-					<div class='col-xs-3 nav-item'>
-						<a class='nav-link' href="https://github.com/Buscedv/Ask" target="_blank">Project</a>
-					</div>
-					<div class='col-xs-3 nav-item'>
-						<a class='nav-link' href="#">Articles</a>
-					</div>
-					<div class='col-xs-3 nav-item'>
-						<a class='nav-link' href="https://github.com/Buscedv/Ask" target="_blank">Contribute</a>
-					</div>
+					<a class='col-xs-3 nav-item' @click.prevent="$router.push('/')">Home</a>
+					<a class='col-xs-3 nav-item' href="https://docs.ask-lang.org" target="_blank">Docs</a>
+					<a class='col-xs-3 nav-item' @click.prevent="$router.push('/project')">Project</a>
+<!--					<div class='col-xs-3 nav-item'>-->
+<!--						<a class='nav-link' href="#">Articles</a>-->
+<!--					</div>-->
+					<a class='col-xs-3 nav-item' href="https://github.com/Buscedv/Ask" target="_blank">Contribute</a>
 				</div>
 			</div>
 		</div>
@@ -76,14 +71,11 @@ h1 {
 
 .nav-item {
 	width: 100%;
-	text-align: center;
-}
-
-.nav-link {
+	text-align: right;
 	color: var(--palette-pink-light-light);
 }
 
-.nav-link:hover {
+.nav-item:hover {
 	cursor: pointer;
 	opacity: .7;
 }
@@ -101,6 +93,10 @@ h1 {
 	
 	.nav-items {
 		padding-bottom: 5px;
+	}
+	
+	.nav-item {
+		text-align: center;
 	}
 }
 </style>

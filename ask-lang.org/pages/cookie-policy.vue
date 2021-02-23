@@ -36,6 +36,9 @@
 <script>
 export default {
 	name: 'CookiePolicy',
+	head: {
+		title: 'The Ask Programming Language - Cookie Policy'
+	},
 }
 </script>
 
@@ -44,12 +47,23 @@ article {
 	padding: 20px;
 	max-width: 70vw;
 	margin: 0 auto;
-	margin-top: 10vh;
+	margin-top: 15vh;
 }
 
 h1, h3 {
 	text-align: center;
 	margin: 0;
 	padding: 5px;
+}
+
+@media screen and (max-width: 870px) {
+	article {
+		width: 90vw;
+		padding: 0;
+	}
+	
+	h1 {
+		font-size: 2rem;
+	}
 }
 </style>
