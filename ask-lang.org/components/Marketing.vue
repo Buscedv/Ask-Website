@@ -6,7 +6,7 @@
 					<div class="col-sm-8 col-xs-12">
 						<h1>Development.</h1>
 						<p>
-							Ask's syntax is heavily based on and inspired by Python, and can almost be considered to be
+							Ask's syntax is heavily inspired by Python, and can almost be considered to be
 							a
 							superset of Python. This means that picking up Ask is super easy if you’re already familiar
 							with
@@ -57,7 +57,7 @@
 							Python, more specifically a Flask app.
 						</p>
 						<p>
-							Flask is a very popular and well established web framework for Python, so there's already a
+							Flask is a very popular and well-established web framework for Python, so there's already a
 							lot
 							of
 							tools, and services for deploying Flask apps.
