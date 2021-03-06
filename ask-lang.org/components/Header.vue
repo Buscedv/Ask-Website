@@ -17,10 +17,10 @@
 				<div class='col-sm-6 col-xs-12 vc'>
 					<div class="row" id="download-area">
 						<div class="col-xs-12">
-							<a class='btn btn-primary btn-large' href="https://github.com/Buscedv/Ask" target="_blank"><font-awesome-icon icon="leaf"/> Install Ask</a>
+							<a class='btn btn-primary btn-large' href="https://pypi.org/project/ask-lang/" target="_blank"><font-awesome-icon icon="leaf"/> Install Ask</a>
 						</div>
 						<div class="col-xs-12">
-							<p>v1.0.0</p>
+							<p>v1.0.6</p>
 						</div>
 					</div>
 				</div>

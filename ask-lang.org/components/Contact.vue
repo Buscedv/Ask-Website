@@ -10,7 +10,7 @@
 				<a class="btn btn-primary" href="mailto:me@edvard.dev"><font-awesome-icon icon="envelope"/> Email</a>
 			</div>
 			<div class="col-sm-4 col-xs-12">
-				<a class="btn btn-primary" href="#" target="_blank"><font-awesome-icon :icon="['fab', 'python']"/> PyPI</a>
+				<a class="btn btn-primary" href="https://pypi.org/project/ask-lang/" target="_blank"><font-awesome-icon :icon="['fab', 'python']"/> PyPI</a>
 			</div>
 		</div>
 	</div>
