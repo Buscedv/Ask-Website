@@ -10,7 +10,7 @@
 					<a class="btn btn-primary" href="#"><font-awesome-icon icon="newspaper"/> Articles</a>
 				</div>
 				<div class="col-sm-4 col-xs-12">
-					<a class="btn btn-primary" href="https://docs.ask-lang.org" target="_blank"><font-awesome-icon icon="book"/> Docs</a>
+					<a class="btn btn-primary" href="https://docs.ask.edvard.dev" target="_blank"><font-awesome-icon icon="book"/> Docs</a>
 				</div>
 				<div class="col-sm-4 col-xs-12">
 					<a class="btn btn-primary" href="https://github.com/Buscedv/Ask" target="_blank"><font-awesome-icon icon="code-branch"/> Contribute</a>

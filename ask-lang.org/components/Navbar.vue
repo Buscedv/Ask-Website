@@ -8,7 +8,7 @@
 			<div class='col-sm-6 col-xs-12 vc'>
 				<div class='row nav-items vc'>
 					<a class='col-xs-3 nav-item' href="https://pypi.org/project/ask-lang/" target="_blank">Install</a>
-					<a class='col-xs-3 nav-item' href="https://docs.ask-lang.org" target="_blank">Docs</a>
+					<a class='col-xs-3 nav-item' href="https://docs.ask.edvard.dev" target="_blank">Docs</a>
 					<a class='col-xs-3 nav-item' @click.prevent="$router.push('/project')">Project</a>
 <!--					<div class='col-xs-3 nav-item'>-->
 <!--						<a class='nav-link' href="#">Articles</a>-->
