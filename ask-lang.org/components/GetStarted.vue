@@ -7,7 +7,7 @@
 			<h2>Get Started</h2>
 			<div class="row">
 				<div class="col-sm-4 col-xs-12">
-					<a class="btn btn-primary" href="#"><font-awesome-icon icon="newspaper"/> Articles</a>
+					<a class="btn btn-primary" href="https://pypi.org/project/ask-lang/" target="_blank"><font-awesome-icon icon="newspaper"/> PyPI</a>
 				</div>
 				<div class="col-sm-4 col-xs-12">
 					<a class="btn btn-primary" href="https://docs.ask.edvard.dev" target="_blank"><font-awesome-icon icon="book"/> Docs</a>
