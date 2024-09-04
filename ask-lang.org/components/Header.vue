@@ -20,7 +20,7 @@
 							<a class='btn btn-primary btn-large' href="https://pypi.org/project/ask-lang/" target="_blank"><font-awesome-icon icon="leaf"/> Install Ask</a>
 						</div>
 						<div class="col-xs-12">
-							<p>v1.4.4</p>
+							<p>v1.4.6</p>
 						</div>
 					</div>
 				</div>
